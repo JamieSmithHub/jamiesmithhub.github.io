@@ -827,6 +827,11 @@ footer ul.quicklinks {
     
 }
 
+.rob a{
+    
+    color: #ababab;
+}
+
 .arrgh {
     background-image: url(/img/arrgh/bg.png);
     background-size: cover;
@@ -843,6 +848,11 @@ footer ul.quicklinks {
     background-position: center;
     color: #222; 
     
+}
+
+.sheffield a {
+    
+    color: #DF202F;
 }
 
 .flyers {
