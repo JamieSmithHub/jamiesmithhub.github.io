@@ -139,7 +139,11 @@ font-family: "Kollektif", cursive;
     color: #011627;
 }
 .text-muted {
-  color: #777777;
+  color: #dedede;
+}
+
+.text-muted-dark {
+  color: #555555;
 }
 .text-primary {
   color: #333;
@@ -819,7 +823,7 @@ footer ul.quicklinks {
 }
 
 .rob {
-    background-image: url(/img/robsrobs/bg.png);
+    background-image: url(/img/robsrobs/bg-min.png);
     background-size: cover;
     background-position: center;
     color: #fafafa;
@@ -829,11 +833,11 @@ footer ul.quicklinks {
 
 .rob a{
     
-    color: #ababab;
+    color: #cbcbcb;
 }
 
 .arrgh {
-    background-image: url(/img/arrgh/bg.png);
+    background-image: url(/img/arrgh/bg-min.png);
     background-size: cover;
     background-position: center;
     color: #fafafa;
@@ -842,7 +846,7 @@ footer ul.quicklinks {
 }
 
 .sheffield {
-     background-image: url(/img/sheffield/bg.png);
+     background-image: url(/img/sheffield/bg-min.png);
     background-color: #d0d0d0;
     background-size: cover;
     background-position: center;
@@ -856,7 +860,7 @@ footer ul.quicklinks {
 }
 
 .flyers {
-   background-image: url(/img/flyers/bg.png);
+   background-image: url(/img/flyers/bg-min.png);
     background-color: #181716;
     background-size: cover;
     background-position: center;
