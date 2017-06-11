@@ -209,7 +209,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate>
+                    
                         
                             <div class="col-md-5 col-md-offset-1 spacer">
                                 <div data-aos="fade" data-aos-delay="100">
@@ -225,23 +225,23 @@
                             <p></p>
                             </div>
                             
-                            
+                            <form action="https://formspree.io/jamie@j-s.zone" method="POST" name="sentMessage" id="contactForm" novalidate>
                             <div class="col-md-5 spacer">
                                 <div class="form-group">
                                     <label for="examplename">Your Name</label>
-                                    <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                                    <input type="text" name="name" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleemailaddress">Your Email Address</label>
-                                    <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <input type="email" name="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 
                             
                                 <div class="form-group">
                                     <label for="exampletext">Your Message</label>
-                                    <textarea class="form-control" id="message" rows="5" required data-validation-required-message="Please enter a message."></textarea>
+                                    <textarea class="form-control" name="message" id="message" rows="5" required data-validation-required-message="Please enter a message."></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             
